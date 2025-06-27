@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qusai Alabbadi - Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/mech.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/Style_Qusai.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    /* quick style for the download button */
+    .download-btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      border-radius: 0.5rem;
+      font-size: 0.95rem;
+      font-weight: 600;
+      background: var(--jet, #0066cc);
+      color: #fff;
+      text-decoration: none;
+      transition: opacity 0.2s ease;
+    }
+    .download-btn:hover { opacity: 0.8; }
+  </style>
+
+
+
+
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/qusai.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Qusai Alabbadi</h1>
+
+          <p class="title">Mechanical engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:qusaialabady584@gmail.com" class="contact-link">qusaialabady584@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="+962776494203" class="contact-link">+962776494203</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-05-08">May 08, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Jordan, Amman</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I’m Qusai Al-Abbadi, a mechanical engineer who blends hardware, code,
+            and creativity to turn bold ideas into reliable machines. My focus is on
+            developing autonomous systems and rapid-prototyping workflows that
+            shorten the distance between concept and real-world performance.
+            I approach every challenge as an iterative journey prototype, 
+            test, learn, and refine guided by data and hands-on experimentation. 
+            The aim is always the same: deliver solutions that are robust, efficient, 
+            and safe while remaining accessible to the wider engineering community.
+          </p>
+
+          <p>
+            
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-drone.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UAV System Design</h4>
+
+                <p class="service-item-text">
+                  Fixed‑wing & multirotor platforms, autopilot tuning, SORA‑aligned safety.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-mechanial.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mechanical Design</h4>
+
+                <p class="service-item-text">
+                  Structure & mechanism design, FEA, and CAD to prototype integration.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-cnc.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Digital Fabrication</h4>
+
+                <p class="service-item-text">
+                  3D printing, laser cutting, and desktop CNC for fast iteration.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-stem.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">STEM Training & Mentorship</h4>
+
+                <p class="service-item-text">
+                  Handson workshops in FPV, CAD & Arduino, training 100+ students.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+    
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                 
+                </p>
+              </div>
+
+            </div>
+          </section>
+
+        </div>
+<!-- ─────────────────── CERTIFICATIONS ─────────────────── -->
+<section class="timeline">
+
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <ion-icon name="ribbon-outline"></ion-icon>
+    </div>
+    <h3 class="h3">Certifications</h3>
+  </div>
+
+  <ol class="timeline-list">
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">
+        FAA Part&nbsp;107 Remote Pilot (sUAS)
+      </h4>
+      <span>Issued&nbsp;Aug&nbsp;2024</span>
+      <p class="timeline-text">
+        License in good standing—small-UAV operations under 14 CFR 107.
+      </p>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">
+        Safety &amp; Risk Mitigation for UAS Operations
+      </h4>
+      <span>Issued&nbsp;Jan&nbsp;2024</span>
+      <p class="timeline-text">
+        SORA-based operational risk assessment and mitigation planning.
+      </p>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">
+        Certified&nbsp;SOLIDWORKS&nbsp;Associate&nbsp;(CSWA)
+      </h4>
+      <span>Issued&nbsp;May&nbsp;2023</span>
+      <p class="timeline-text">
+        3-D modeling & mechanical design—scored “Pass with Distinction.”
+      </p>
+    </li>
+
+  </ol>
+</section>
+
+        
+      </article>
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+ <!-- RESUME -->
+ <article class="resume" data-page="resume">
+  <header>
+    <h2 class="h2 article-title">Resume</h2>
+    <!-- Download CV button -->
+    <a href="./assets/Qusai Alabbad1-Resoume.pdf" class="download-btn" download>Download CV</a>
+    <section class="timeline"> </section>
+  </header>
+
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper"><div class="icon-box">
+          <ion-icon name="book-outline"></ion-icon>
+          </div>
+          <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Al Hussein Technical University</h4>
+
+              <span>2021 — 2026</span>
+
+              <p class="timeline-text">
+                B.Sc. Mechanical Engineering
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">2-High school of Wadi Alseer</h4>
+
+              <span>2020 — 2021</span>
+
+              <p class="timeline-text">
+                • GPA: 90.5%
+              </p>
+              <p class="timeline-text">
+                
+                • Scientific branch
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Technical Team Lead, HTU AeroSquad</h4>
+
+              <span>Jun 2022 – Present</span>
+
+              <p class="timeline-text">
+                • Direct a 12-member cross-disciplinary crew building and 
+                flight-testing fixed-wing and multirotor UAVs.
+              </p>
+                <p class="timeline-text">
+                • Conduct safety-focused workshops on airframe assembly, 
+                PX4/ArduPilot setup, and FPV tuning for university and 
+                high-school students.
+              </p>
+                <p class="timeline-text">
+                • Co-organised Jordan’s first FPV racing league (MACH-1) 
+                and managed technical inspections for 50 + pilots.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lab Technician & Student Mentor, HTU Hackerspace</h4>
+
+              <span>May 2023 – Nov 2023</span>
+
+              <p class="timeline-text">
+                • Maintained FDM printers and laser cutters, sustaining 95 % uptime.
+              </p>
+                <p class="timeline-text">
+                • Advised peers on CAD, slicing, and post-processing, cutting print failures 
+                and turnaround time.
+              </p>
+                <p class="timeline-text">
+                • Supported diverse maker projects, sharpening teamwork, communication, 
+                and project-management skills.
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CAD & Simulation</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Mechanical design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Digital fabrication</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">UAV & robotics</h5>
+                <data value="95">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        
+
+      </article>
+
+
+
+<!-- ──────────────────  PORTFOLIO  ────────────────── -->
+<article class="portfolio" data-page="portfolio">
+  <header><h2 class="h2 article-title">Portfolio</h2></header>
+
+  <!-- ── projects grid + filters ── -->
+  <section class="projects">
+
+    <!-- filter buttons -->
+    <ul class="filter-list">
+      <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+      <li class="filter-item"><button data-filter-btn>UAV & Flight Systems</button></li>
+      <li class="filter-item"><button data-filter-btn>Robotics & Mechatronics</button></li>
+      <li class="filter-item"><button data-filter-btn>Digital Fabrication</button></li>
+    </ul>
+
+    <!-- mobile dropdown -->
+    <div class="filter-select-box">
+      <button class="filter-select" data-select>
+        <div class="select-value" data-selecct-value>Select Category</div>
+        <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
+      </button>
+      <ul class="select-list">
+        <li class="select-item"><button data-select-item>All</button></li>
+        <li class="select-item"><button data-select-item>UAV & Flight Systems</button></li>
+        <li class="select-item"><button data-select-item>Robotics & Mechatronics</button></li>
+        <li class="select-item"><button data-select-item>Digital Fabrication</button></li>
+      </ul>
+    </div>
+
+    <!-- project grid -->
+    <ul class="project-list">
+
+      <!-- UAV & Flight Systems -->
+      <li class="project-item" data-filter-item data-category="uav & flight systems">
+        <a href="#"
+           data-desc="Quadrotor running Pixhawk autopilot for autonomous mapping.">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/S500-quadrotor-with-Pixhawk-autopilot.png"
+                 alt="Autonomous S500 Quad" loading="lazy">
+          </figure>
+          <h3 class="project-title">Autonomous S500 Quad</h3>
+          <p class="project-category">UAV & Flight Systems</p>
+        </a>
+      </li>
+
+      <li class="project-item" data-filter-item data-category="uav & flight systems">
+        <a href="#"
+           data-desc="Lightweight 3-D-printed V-tail glider optimized for endurance flights.">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/3DPAC_glider2.jpeg"
+                 alt="3D Printed V-Tail Glider" loading="lazy">
+          </figure>
+          <h3 class="project-title">3D Printed V-Tail Glider</h3>
+          <p class="project-category">UAV & Flight Systems</p>
+        </a>
+      </li>
+
+      <li class="project-item" data-filter-item data-category="uav & flight systems">
+        <a href="#"
+           data-desc="Nation-wide FPV racing league with 50+ competitive pilots.">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/mach1.jpg"
+                 alt="MACH-1 FPV League" loading="lazy">
+          </figure>
+          <h3 class="project-title">MACH-1 FPV League</h3>
+          <p class="project-category">UAV & Flight Systems</p>
+        </a>
+      </li>
+
+      <li class="project-item" data-filter-item data-category="uav & flight systems">
+        <a href="#"
+           data-desc="Modular fixed-wing platform fabricated entirely on desktop printers.">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/3DPAC_glider1.jpg"
+                 alt="3D Printed Fixed Wing" loading="lazy">
+          </figure>
+          <h3 class="project-title">3D Printed Fixed Wing</h3>
+          <p class="project-category">UAV & Flight Systems</p>
+        </a>
+      </li>
+
+      <li class="project-item" data-filter-item data-category="uav & flight systems">
+        <a href="#"
+           data-desc="Hands-on workshop guiding students through RC-plane builds.">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/workshops.png"
+                 alt="AeroSquad RC-Plane Workshop" loading="lazy">
+          </figure>
+          <h3 class="project-title">AeroSquad RC-Plane Workshop</h3>
+          <p class="project-category">UAV & Flight Systems</p>
+        </a>
+      </li>
+
+      <!-- Robotics & Mechatronics -->
+      <li class="project-item" data-filter-item data-category="robotics & mechatronics">
+        <a href="#"
+           data-desc="Gimballed rocket with active stabilisation for VTOL tests.">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/rocket.jpeg"
+                 alt="VTOL Rocket Stabiliser" loading="lazy">
+          </figure>
+          <h3 class="project-title">VTOL Rocket Stabiliser</h3>
+          <p class="project-category">Robotics & Mechatronics</p>
+        </a>
+      </li>
+
+      <li class="project-item" data-filter-item data-category="robotics & mechatronics">
+        <a href="#"
+           data-desc="3-D-printed payload module for precise mortar deployments.">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/Mortar.png"
+                 alt="60 mm Mortar Drop Module" loading="lazy">
+          </figure>
+          <h3 class="project-title">60 mm Mortar Drop Module</h3>
+          <p class="project-category">Robotics & Mechatronics</p>
+        </a>
+      </li>
+
+      <li class="project-item" data-filter-item data-category="robotics & mechatronics">
+        <a href="#"
+           data-desc="AI-driven 2-axis camera gimbal with real-time object tracking.">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/gimbal.jpeg"
+                 alt="AI Camera Gimbal" loading="lazy">
+          </figure>
+          <h3 class="project-title">AI Camera Gimbal</h3>
+          <p class="project-category">Robotics & Mechatronics</p>
+        </a>
+      </li>
+
+      <li class="project-item" data-filter-item data-category="robotics & mechatronics">
+        <a href="#"
+           data-desc="RC-controlled 3-DOF arm for pick-and-place demonstrations.">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/3DOF_arm.png"
+                 alt="3-DOF RC Robotic Arm" loading="lazy">
+          </figure>
+          <h3 class="project-title">3-DOF RC Robotic Arm</h3>
+          <p class="project-category">Robotics & Mechatronics</p>
+        </a>
+      </li>
+
+      <!-- Digital Fabrication (currently no items) -->
+    </ul>
+  </section>
+</article>
+
+<!-- ── pop-up modal (place once, after the portfolio article) ── -->
+<div class="project-modal"
+     style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.8);
+            z-index:9999;align-items:center;justify-content:center;">
+  <div style="background:#9ddfd286;padding:1rem;max-width:90%;max-height:90%;
+              overflow:auto;border-radius:0.75rem;position:relative;">
+    <button class="modal-close"
+            style="position:absolute;top:0.5rem;right:0.5rem;background:none;
+                   border:none;font-size:1.5rem;cursor:pointer;">&times;</button>
+
+    <img id="modal-img" src="" alt="project"
+         style="width:100%;height:auto;border-radius:0.5rem;" />
+
+    <p id="modal-desc"
+       style="margin-top:0.75rem;font-size:0.95rem;line-height:1.4;"></p>
+  </div>
+</div>
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
